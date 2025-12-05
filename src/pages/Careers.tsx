@@ -2,7 +2,7 @@ export default function Careers() {
   return (
     <section>
       <h2 className="text-2xl font-semibold mb-4">Careers</h2>
-      <p className="text-slate-300">Join Cinema X and contribute to a premium cinema experience worldwide. We’re hiring across creative, technical, and hospitality roles.</p>
+      <p className="text-slate-300">Join Omniplex and contribute to a premium cinema experience worldwide. We’re hiring across creative, technical, and hospitality roles.</p>
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         {[
           { title: 'Frontend Engineer', location: 'London' },
