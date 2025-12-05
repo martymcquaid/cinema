@@ -15,14 +15,14 @@ export interface Location {
 export const LOCATIONS: Location[] = [
   {
     id: 'london-covent-garden',
-    name: 'Cinema X Covent Garden',
+    name: 'Omniplex Covent Garden',
     address: '12 Regent Street, London WC2E 9AQ',
     screens: 9,
     formats: ['2D', 'IMAX', '4DX'],
     amenities: ['VIP Lounge', 'Dolby Atmos', 'Bar & Bistro', 'Wheelchair Accessible'],
     photos: [],
     phone: '+44 20 7946 0000',
-    email: 'coventgarden@cinemax.example',
+    email: 'coventgarden@omniplex.example',
     parking: 'Paid parking nearby (3 min walk)',
     accessibility: 'Wheelchair accessible, hearing loop'
   },
