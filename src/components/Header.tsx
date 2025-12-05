@@ -23,6 +23,9 @@ const Header: React.FC = () => {
           <NavLink to="/locations" className={({isActive}) => "hover:text-yellow-300" + (isActive ? " text-yellow-300" : "")}>
             Locations
           </NavLink>
+          <NavLink to="/men-in-london" className={({isActive}) => "hover:text-yellow-300" + (isActive ? " text-yellow-300" : "")}>
+            London
+          </NavLink>
           <NavLink to="/loyalty" className={({isActive}) => "hover:text-yellow-300" + (isActive ? " text-yellow-300" : "")}>
             Loyalty
           </NavLink>
