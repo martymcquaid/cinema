@@ -14,6 +14,7 @@ import Blog from './pages/Blog'
 import Careers from './pages/Careers'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
+import Booking from './pages/Booking'
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/careers" element={<Careers />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/booking/:id" element={<Booking />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </Layout>
