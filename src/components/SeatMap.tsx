@@ -20,6 +20,11 @@ const SeatMap: React.FC<SeatMapProps> = ({ rows, cols, booked, onChange }) => {
     })
   }
 
+  // basic guard to avoid rendering empty seating area
+  if (!rows?.length || cols <= 0) {
+    return <div className="p-4 bg-slate-900 rounded-xl shadow-inner">Loading seating…</div>
+  }
+
   // simple layout: grid with rows x cols
   return (
     <div className="p-4 bg-slate-900 rounded-xl shadow-inner">
