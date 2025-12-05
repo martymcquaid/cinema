@@ -6,7 +6,7 @@ export default function Home() {
       {/* Stock image banner */}
       <div className="w-full">
         <img
-          src="https://images.unsplash.com/photo-1517604931184-..."
+          src="https://picsum.photos/seed/cinema/1600/600"
           alt="Cinematic theater audience"
           className="w-full h-64 md:h-96 object-cover"
         />
