@@ -2,7 +2,7 @@ export default function Loyalty() {
   return (
     <section>
       <h2 className="text-2xl font-semibold mb-4">Loyalty & Membership</h2>
-      <p className="text-slate-300">Join Cinema X Rewards to earn points, unlock exclusive benefits, and enjoy member-only offers across all screens and experiences.</p>
+      <p className="text-slate-300">Join Omniplex Rewards to earn points, unlock exclusive benefits, and enjoy member-only offers across all screens and experiences.</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
         {[
           { tier: 'Silver', desc: 'Entry-level benefits, points accrual' },
