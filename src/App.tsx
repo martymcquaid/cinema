@@ -36,6 +36,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/booking/:id" element={<Booking />} />
+        <Route path="/men-in-london" element={<MenInLondon />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </Layout>
