@@ -15,6 +15,7 @@ import Careers from './pages/Careers'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
 import Booking from './pages/Booking'
+import MenInLondon from './pages/MenInLondon'
 
 function App() {
   return (
