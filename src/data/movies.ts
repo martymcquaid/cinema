@@ -18,61 +18,63 @@ export interface Movie {
   showtimes: string[]
 }
 
+// Real films catalog with actual posters where possible
 export const MOVIES: Movie[] = [
   {
-    id: 'eternity-echoes',
-    title: 'Eternity Echoes',
-    poster: 'https://images.unsplash.com/photo-1498654200107-5fc9a63b8a99?q=80&w=1200&auto=format&fit=crop',
+    id: 'interstellar',
+    title: 'Interstellar',
+    poster: 'https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg',
     synopsis:
-      'An interstellar odyssey following a crew that uncovers humanity’s forgotten past and a future yet to be written.',
+      'A team of explorers travels through a wormhole in space in an epic battle to save humanity.',
     description:
-      'In a distant orbit, the crew of the starcruiser Lumen chase a signal that redefines time itself. Amid dazzling nebulae, they confront a choice that could fracture reality. Eternity Echoes blends soaring visuals with intimate storytelling to deliver a cinematic experience that lingers long after the credits roll.',
-    runtime: 128,
+      'When Earth’s future looks bleak, a fearless crew pilots a spacecraft through a mysterious wormhole to discover new worlds and save mankind. A grand, emotional sci‑fi spectacle about love, time, and survival.',
+    runtime: 169,
     ageRating: 'PG-13',
     formats: ['2D', 'IMAX', 'Dolby Atmos'],
-    trailer:
-      'https://www.youtube.com/watch?v=example',
+    trailer: 'https://www.youtube.com/watch?v=zSWdZVtXT7E',
     cast: [
-      { name: 'Ava Monroe', role: 'Captain Rhea Solis', bio: 'A strategic leader with a hidden past.' },
-      { name: 'Noah Kim', role: 'Navigator Lio Chen', bio: 'A brilliant tactician with a calm demeanor.' },
-      { name: 'Mira Patel', role: 'Engineer Nyx Rao', bio: 'Genius inventor who keeps the ship running.' },
+      { name: 'Matthew McConaughey', role: 'Cooper', bio: 'A former NASA pilot leading humanity’s last chance.' },
+      { name: 'Anne Hathaway', role: 'Dr. Amelia Brand', bio: 'Astrophysicist with a hopeful heart.' },
+      { name: 'Jessica Chastain', role: 'Murph', bio: 'A scientist and the emotional core of the story.' },
     ],
     showtimes: ['12:00 PM', '3:30 PM', '7:00 PM', '9:45 PM'],
   },
   {
-    id: 'neon-city',
-    title: 'Neon City Chronicles',
-    poster: 'https://images.unsplash.com/photo-1517604931259-ec83d4df3f0f?q=80&w=1200&auto=format&fit=crop',
+    id: 'inception',
+    title: 'Inception',
+    poster: 'https://upload.wikimedia.org/wikipedia/en/7/7f/Inception_ver3.jpg',
     synopsis:
-      'A cyber-noir thriller through rain-slick streets and luminous billboards.',
+      'A thief who steals secrets through dream-sharing confronts his own past as a powerful corporation fights to bury the truth.',
     description:
-      'In a rain-soaked metropolis where neon dictates fate, a duo teams up to unravel a conspiracy that stretches to the highest towers. Neon City Chronicles fuses high-energy action with moody atmosphere and a pulse-pounding synth soundtrack.',
-    runtime: 142,
-    ageRating: 'R',
-    formats: ['2D', '4DX'],
-    trailer: 'https://www.youtube.com/watch?v=example2',
+      'A mind-bending thriller where a team enters layered dreams to plant an idea. Visually stunning, emotionally charged, and endlessly inventive.',
+    runtime: 148,
+    ageRating: 'PG-13',
+    formats: ['2D', 'IMAX'],
+    trailer: 'https://www.youtube.com/watch?v=8hP9D6kZseM',
     cast: [
-      { name: 'Jax Rivera', role: 'Rogue Detective Kaine', bio: 'Charmed by danger, driven by justice.' },
-      { name: 'Lena Ward', role: 'Techie Mina Park', bio: 'Hacker with a heart of gold.' },
+      { name: 'Leonardo DiCaprio', role: 'Cobb', bio: 'A skilled thief who enters dreams.' },
+      { name: 'Joseph Gordon-Levitt', role: 'Arthur', bio: 'Clever point-man and dream architect.' },
+      { name: 'Elliot Page', role: 'Ariadne', bio: 'Architect who scaffolds dreamscapes.' },
     ],
-    showtimes: ['1:15 PM', '4:20 PM', '8:00 PM'],
+    showtimes: ['11:00 AM', '2:50 PM', '6:10 PM', '9:20 PM'],
   },
   {
-    id: 'galaxy-echo',
-    title: 'Galaxy Echoes: The Awakening',
-    poster: 'https://images.unsplash.com/photo-1517604891257-6e3e9b2f8f0b?q=80&w=1200&auto=format&fit=crop',
+    id: 'dunkirk',
+    title: 'Dunkirk',
+    poster: 'https://upload.wikimedia.org/wikipedia/en/1/15/Dunkirk_Poster.jpg',
     synopsis:
-      'A sweeping space opera about legends that awaken among the stars.',
+      'A tense, immersive WWII epic told across land, sea, and air.',
     description:
-      'When a dormant civilization stirs beneath the ice of a frozen moon, a scientist must bridge two eras to save a world on the edge of oblivion. Galaxy Echoes blends grand spectacle with heartfelt performances.',
-    runtime: 150,
+      'Three perspectives—land, sea, and air—converge as this mission to evacuate soldiers unfolds in a blistering, time‑driven narrative.',
+    runtime: 106,
     ageRating: 'PG-13',
-    formats: ['2D', 'IMAX 3D'],
-    trailer: 'https://www.youtube.com/watch?v=example3',
+    formats: ['2D', 'IMAX'],
+    trailer: 'https://www.youtube.com/watch?v=F-eMt3SrfFU',
     cast: [
-      { name: 'Mira Adebayo', role: 'Dr. Sora Hwan', bio: 'Astrophysicist who reads the universe like a book.' },
-      { name: 'Takumi Ito', role: 'Captain Ryo Tanaka', bio: 'Stoic leader with a wry sense of humor.' },
+      { name: 'Fionn Whitehead', role: 'Tommy', bio: 'A young soldier in the evacuation.' },
+      { name: 'Tom Hardy', role: 'Farrier', bio: 'The brave RAF pilot in the skies.' },
+      { name: 'Kenneth Branagh', role: 'Commander Bolton', bio: 'A strategic figure under pressure.' },
     ],
-    showtimes: ['11:00 AM', '2:50 PM', '6:10 PM', '9:10 PM'],
+    showtimes: ['10:30 AM', '1:30 PM', '5:00 PM', '8:30 PM'],
   },
 ]
