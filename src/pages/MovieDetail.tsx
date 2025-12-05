@@ -1,4 +1,3 @@
-import React from 'react'
 import { useParams } from 'react-router-dom'
 import { MOVIES } from '../data/movies'
 
@@ -18,9 +17,12 @@ export default function MovieDetail() {
   return (
     <div className="space-y-6">
       {/* Hero */}
-      <section className="h-96 bg-gradient-to-r from-slate-900 to-slate-800 rounded-xl overflow-hidden shadow-xl">
-        <div className="h-full w-full" style={{ backgroundImage: `url(${movie.poster})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
-        <div className="absolute bottom-0 left-0 p-6 bg-gradient-to-t from-black/80 to-transparent w-full h-full"></div>
+      <section className="h-96 bg-gradient-to-r from-slate-900 to-slate-800 rounded-xl overflow-hidden shadow-xl relative">
+        <div
+          className="h-full w-full"
+          style={{ backgroundImage: `url(${movie.poster})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+        />
+        <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black/70 to-transparent" />
       </section>
       {/* Synopses */}
       <div className="md:flex md:gap-6">
