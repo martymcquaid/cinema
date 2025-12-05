@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { MOVIES } from '../data/movies'
+import { Link } from 'react-router-dom'
 
 export default function MovieDetail() {
   const { id } = useParams<{ id: string }>()
@@ -22,7 +23,7 @@ export default function MovieDetail() {
           className="h-full w-full"
           style={{ backgroundImage: `url(${movie.poster})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         />
-        <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black/70 to-transparent" />
+        <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black/80 to-transparent" />
       </section>
       {/* Synopses */}
       <div className="md:flex md:gap-6">
@@ -56,7 +57,7 @@ export default function MovieDetail() {
           ))}
         </div>
         <div className="mt-4">
-          <button className="px-6 py-3 bg-blue-600 rounded-xl hover:shadow-xl">Book Tickets</button>
+          <Link to={`/booking/${movie.id}`} className="px-6 py-3 bg-blue-600 rounded-xl hover:shadow-xl">Book Tickets</Link>
         </div>
       </section>
     </div>
