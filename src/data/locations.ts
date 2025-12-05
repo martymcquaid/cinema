@@ -28,14 +28,14 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: 'new-york-times-square',
-    name: 'Cinema X Times Square',
+    name: 'Omniplex Times Square',
     address: '1510 Broadway, New York, NY 10036',
     screens: 12,
     formats: ['2D', '3D', 'IMAX'],
     amenities: ['Gourmet Concessions', 'VIP Suites', 'Robot-Assisted Service'],
     photos: [],
     phone: '+1 212-555-0101',
-    email: 'timesquare@cinemax.example',
+    email: 'timesquare@omniplex.example',
     parking: 'Valet & nearby garages',
     accessibility: 'Accessible entrances, captioning available'
   }
